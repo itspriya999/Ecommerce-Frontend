@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.us {
+    background: rgb(26, 26, 92);
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.us .us1 {
+    padding: 0px 60px 0 60px;
+}
+
+.us .contactus1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.us .contactus1 {
+    color: rgb(182, 159, 45);
+}
+
+.us .contactus2 {
+    display: flex;
+    flex-direction: row;
+    margin: -15px;
+}
+
+.us .us1 .contactus2 svg{
+    height: 70px;
+    width: 50px;
+}
+
+.us .us1 .social1 svg{
+    height: 40px;
+    width: 40px;
+}
+
+.us h1 {
+    color: white;
+}
+
+.us p {
+    color: white;
+}
+
+.us h2 {
+    color: white;
+}
+
+.us button {
+    background-color: transparent;
+    border-color: rgb(182, 159, 45);
+    cursor: pointer;
+    height: 50px;
+    width: 140px;
+    color: white;
+    font-size: 1rem;
+}
+
+.us button:hover{
+    background-color:rgb(182, 159, 45);
+    color: black;
+}
+
+.us .contactus1 h1 {
+    padding: 10px 0 0 10px;
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+}
+
+.us .us1 p {
+    font-size: 1.2rem;
+    font-family: system-ui, sans-serif;
+}
+
+.us .contactus1 svg {
+    height: 70px;
+    width: 50px;
+}
+
+.us h2 {
+    font-size: 1.6rem;
+    font-family: system-ui, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.us p {
+    font-size: 1.6rem;
+    font-family: system-ui, sans-serif;
+    padding: 10px;
+}
+
+.us .contactus2 svg {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+
+.us .contactus2 svg:hover{
+    transform: scale(1.3);
+}
+
+.us .social svg {
+    border: 2px solid rgb(182, 159, 45);
+    border-radius: 30%;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.us .social svg:hover {
+    transform: scale(1.3);
+}
+
+.us .social {
+    display: flex;
+    flex-direction: row;
+}
+
+.us .social1 {
+    padding: 5px 10px 0 10px;
+}
+
+.us .contactus3 {
+    padding: 10px;
+}
+
+.footer_head{
+    background-color:rgb(182, 159, 45);
+    height: 40px;
+}

@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin-top: 200px;
+}
+.container .container-4{
+    right: 200px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 30px;     
+    background-color:rgb(26, 26, 92);
+    text-align:center;
+    z-index:-1;
+    position: absolute;
+    right:200px;
+    height: 730px;
+    width: 700px;
+}
+
+.container .container-1{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.container .container-4 h1{
+    font-size: 3rem;
+    text-align:left;
+    margin-top: 5px;
+    color:white;
+    /* padding: 30px; */
+    font-family: system-ui, sans-serif;
+}
+
+.container .container-4 h2{
+    text-align:left;
+    font-weight:900;
+    color: rgb(182, 159, 45);
+    padding: 5px;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container .container-4 p{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: system-ui, sans-serif;
+    color:white;
+}
+
+.container .container-4 svg{
+    /* padding-left: 100px; */
+    height: 120px;
+    width: 120px;
+    color: rgb(182, 159, 45);
+    padding: 30px;
+}
+
+.container .container-4 button{
+    background-color: transparent;
+    height: 70px;
+    width: 150px;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    border-color: rgb(182, 159, 45);
+    cursor: pointer;
+    color: white;
+}
+
+.container button:hover{
+    background-color:rgb(182, 159, 45);
+    color: black;
+}
+
+.container img{
+    /* padding-left: 30px; */
+    padding-right: 280px;
+    margin-top: 140px;
+    height: 520px;
+    width: 800px;
+}
+
+.features {
+    margin: 200px 150px 0;
+}
+
+.features {
+    margin: 200px 150px 0;
+}
+
+.all-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -70px 100px 0;
+    padding: 10px;
+}
+
+.all-features .feature {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-features img {
+    margin: 50px;
+    height: 400px;
+    width: 300px;
+    left: 300px;
+    margin-top: 235px;
+}
+
+.featured {
+    height: 480px;
+    width: 300px;
+    border: 2px solid rgb(26, 26, 92);
+    background-color: rgb(26, 26, 92);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 100px;
+    z-index: -5;
+}
+
+.all-features h1 {
+    font-size: 1.7rem;
+    font-family: system-ui, sans-serif;
+}
+
+.all-features h2 {
+    font-size: 1.5rem;
+    padding: 4px;
+    font-family: system-ui, sans-serif;
+}
+
+.button2 {
+    text-align: center;
+}
+
+.button2 button {
+    background-color: transparent;
+    border-color: rgb(182, 159, 45);
+    cursor: pointer;
+    color: black;
+    height: 70px;
+    width: 150px;
+}
+
+.button2 button:hover{
+    background-color:rgb(182, 159, 45);
+    color: black;
+}
+
+.features h1 {
+    font-size: 2.5rem;
+    font-family: system-ui, sans-serif;
+}
+
+.features h2 {
+    color: rgb(182, 159, 45);
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: system-ui, sans-serif;
+}
+
+.features p {
+    padding: 7px;
+    font-size: 1.3rem;
+    font-family: system-ui, sans-serif;
+}
+
+#services {
+    background: url(../img/service2.webp) no-repeat center center/cover;
+    padding: 100px 100px;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#services .service h1 {
+    font-size: 2.5rem;
+    font-family: system-ui, sans-serif;
+}
+
+#services .service h2 {
+    font-size: 1.5rem;
+    color: rgb(182, 159, 45);
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+}
+
+#services .service1 h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+}
+
+#services p {
+    font-size: 1.3rem;
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+}
+
+#services .make_red:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#services .info-window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+#services .service {
+    padding: 20px;
+    text-align: left;
+}
+
+#services .service1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#services .serviced {
+    padding: 20px;
+}
+
+#services svg {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(26, 26, 92);
+    background: rgb(26, 26, 92);
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(182, 159, 45);
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 200px 0;
+    justify-content: space-between;
+    /* background-color: rgb(246, 238, 200); */
+}
+
+.experience img {
+    height: 450px;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.experience .experience2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience .experience3 {
+    height: 450px;
+    width: 400px;
+    z-index: -1;
+    right: 180px;
+    background-color: rgb(26, 26, 92);
+    position: absolute;
+}
+
+.experience .all {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience .experienced {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0;
+}
+
+.experience span {
+    padding-top: 15px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(182, 159, 45);
+    font-family: system-ui, sans-serif;
+}
+
+.experience p {
+    font-size: 1.3rem;
+    padding-top: 10px;
+    font-family: system-ui, sans-serif;
+}
+
+.experience h2 {
+    font-size: 1.5rem;
+    color: rgb(182, 159, 45);
+    font-family: system-ui, sans-serif;
+}
+
+.experience h1 {
+    font-size: 2.5rem;
+    padding: 10px 0 0 0;
+    font-family: system-ui, sans-serif;
+}
+
+.experience button {
+    background-color: transparent;
+    border-color: rgb(182, 159, 45);
+    cursor: pointer;
+    color: black;
+    height: 70px;
+    width: 150px;
+}
+
+.experience button:hover{
+    background-color:rgb(182, 159, 45);
+    color: black;
+}
+
+.experience .num1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience .num1 p {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(182, 159, 45);
+    font-family: system-ui, sans-serif;
+}
+
+.value {
+    text-align: center;
+    margin: 100px 150px 0 170px;
+}
+
+.value .value2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.value .value1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+
+.value img {
+    height: 550px;
+    width: 700px;
+    z-index: -1;
+    position: absolute;
+    right: 240px;
+}
+
+.value .valued {
+    padding-top:30px;
+    height: 480px;
+    width: 400px;
+    background-color: rgb(26, 26, 92);
+    margin-top: 40px;
+}
+
+.value h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(182, 159, 45);
+    font-family: system-ui, sans-serif;
+}
+
+.value h1 {
+    font-size: 2.5rem;
+    font-family: system-ui, sans-serif;
+    padding: 10px;
+}
+
+.value p {
+    font-size: 1.3rem;
+    font-family: system-ui, sans-serif;
+}
+
+.value .value1 {
+    padding-top: 30px;
+}
+
+.value .value2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    margin-top:10px;
+}
+
+.value .value3 {
+    padding-left: 10px;
+}
+
+.value .value3 p {
+    color: white;
+    margin-top: -10px;
+}
+
+.value svg {
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgb(26, 26, 92);
+    background: rgb(26, 26, 92);
+    color: rgb(182, 159, 45);
+}
+
+.value .value4 {
+    padding-top: 20px;
+}
+
+.value button {
+    background-color: transparent;
+    border-color: rgb(182, 159, 45);
+    cursor: pointer;
+    height: 50px;
+    width: 140px;
+    color: white;
+    font-size: 1rem;
+}
+
+.value button:hover{
+    background-color:rgb(182, 159, 45);
+    color: black;
+}
+
+.agent {
+    background: rgb(239, 230, 183);
+    height: 770px;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.agent .contained{
+    justify-content: center;
+    display: flex;
+}
+
+.agent .agent2 h2 {
+    font-size: 1.5rem;
+    color: rgb(182, 159, 45);
+}
+
+.agent .agent2 h1 {
+    font-size: 2.5rem;
+    color:rgb(26, 26, 92);
+}
+
+.agent {
+    padding-top: 100px;
+}
+
+.agent .agent1 h2 {
+    color:rgb(26, 26, 92);
+}
+
+.agent .agent1 p {
+    color:rgb(26, 26, 92);
+}
+
+.agent .agent1 {
+    height: 500px;
+    width: 350px;
+}
+
+.agent img {
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;
+}
+
+.footer-head{
+    margin-top: -200px;
+    background-color:rgb(26, 26, 92);
+    height: 40px;
+}
